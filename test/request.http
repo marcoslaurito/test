@@ -1,0 +1,22 @@
+http://localhost:3001/jobs
+
+###
+
+http://localhost:3001/jobs?name=php&&country=spain&
+
+###
+
+http://localhost:3001/jobs?&salary_min=150000&&country=argentina
+
+###
+
+http://localhost:3000/api/v1/jobs?name=administrator&salary_min=42000&salary_max=97000
+
+### 
+http://localhost:3000/api/v1/jobs/32?skill=mysql
+  
+###
+DELETE http://localhost:3000/api/v1/jobs/delete/5
+
+###
+http://localhost:3000/api/v1/seed  
